@@ -15,6 +15,9 @@ define('EMPTY_TRASH_DAYS', 30 * 86400);
 define('SCRIPT_DEBUG', false);
 define('WP_LANG_DIR', './');
 define('WP_CONTENT_DIR', './');
+define('WP_CONTENT_URL', 'https://example.com/wp-content');
+define('WP_PLUGIN_URL', 'https://example.com/wp-content/plugins');
+define('WPMU_PLUGIN_URL', 'https://example.com/wp-content/mu-plugins');
 
 // Constants for expressing human-readable intervals.
 define('MINUTE_IN_SECONDS', 60);
